@@ -8,4 +8,7 @@ func main(){
 	quests = *questlib.LoadQuestDefs("./test.json")
 	for _, q := range quests {
 		fmt.Println(q)
+		for _, qr := range q.Questrequest{
+			fmt.Println(qr)
+		}
 	}}
