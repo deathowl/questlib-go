@@ -1,0 +1,47 @@
+[
+    {
+      "prerequisites":[
+        1
+      ],
+      "ongoing":"Hey, this is easy! Don't mess around!",
+      "description":"Write your quest details here",
+      "onfinished":"Yaay, you finished the quest!",
+      "id":0,
+      "questgivers":[
+        0
+      ],
+      "title":"New Quest",
+      "required":[
+        {
+          "count":10,
+          "id":0,
+          "type":0
+        },
+        {
+          "count":10,
+          "id":0,
+          "type":0
+        }
+      ]
+    },
+    {
+      "prerequisites":[
+        
+      ],
+      "ongoing":"Hey, This is not yet finished!",
+      "description":"Write your quest details here",
+      "onfinished":"Yaay, done",
+      "id":1,
+      "questgivers":[
+        1
+      ],
+      "title":"dasd",
+      "required":[
+        {
+          "count":10,
+          "id":0,
+          "type":0
+        }
+      ]
+    }
+  ]
