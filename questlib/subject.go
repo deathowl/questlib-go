@@ -1,4 +1,4 @@
 package questlib
-type questsubject interface {
+type Questsubject interface {
 	getSubjectId() int
 }

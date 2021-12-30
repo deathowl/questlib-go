@@ -13,7 +13,7 @@ type QuestDef struct {
     Questgivers []int `json:"questgivers"`;
     Questrequest []QuestRequest `json:"required"`;
 }
-func newQuestDef(id int, description string, ongoing string, onfinished string, prerequisites []int, touch []int, questgivers []int, questrequest []QuestRequest) *QuestDef {
+func NewQuestDef(id int, description string, ongoing string, onfinished string, prerequisites []int, touch []int, questgivers []int, questrequest []QuestRequest) *QuestDef {
     q := QuestDef{Id: id, Description: description, Ongoing: ongoing, Onfinished: onfinished, Prerequisites: prerequisites, Touch : touch, Questgivers: questgivers, Questrequest: questrequest}
     return &q
 }

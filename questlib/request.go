@@ -23,7 +23,7 @@ type QuestRequest struct {
         Count int `json:"count"`;
 } 
 
-func newQuestRequest(subjectId int, requesttype RequestType, count int) *QuestRequest {
+func NewQuestRequest(subjectId int, requesttype RequestType, count int) *QuestRequest {
     qr := QuestRequest{SubjectId: subjectId, RequestType: requesttype, Count: count}
     return &qr
 }
